@@ -1,0 +1,56 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Welcome to Student Registration System</title>
+    <link href ="style/style1.css" type ="text/css" rel="stylesheet" />
+    <script language ="javascript" type="text/javascript" src="js/JScript.js" ></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table width="100%" align ="center" height ="100%" border ="0" style="border-collapse: collapse">
+    <tr style="height: 90px">
+
+
+             <td align ="left" valign ="top" class="td_heading" style="height: 90px">
+                 
+                 <img src="images/logo2.gif" />
+             </td>
+            <td align ="right" valign ="middle" class="td_heading" style="height: 90px">
+                Student Registration System &nbsp;&nbsp;&nbsp;
+             </td>
+    </tr>
+    <tr>
+                <td align="left" valign="middle" class="td_copy"  colspan="2" style="height: 30px">
+                <span id="sp_link" runat ="server" ></span>
+                 </td>
+
+    </tr>
+    <tr>
+        <td align ="left" valign ="top" colspan="2" height="500px" >
+
+             <asp:contentplaceholder id="ContentPlaceHolder1" runat="server" >
+            </asp:contentplaceholder>
+
+        </td>
+    </tr>
+    <tr>
+
+        <td valign ="middle" align ="center" class="td_copy" height ="30" colspan="2" >
+            Developed by Henil Patel,  <%=DateTime.Now.Year.ToString() %>
+        </td>
+
+    </tr>
+    </table>
+
+
+
+        
+
+        
+    
+    </form>
+</body>
+</html>

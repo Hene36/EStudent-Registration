@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="ClassEmail">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\ClassEmail.cs</FileName>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseLayer">
+    <Position X="3.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>App_Code\DatabaseLayer.cs</FileName>
+      <HashCode>CAAhAAABEAAAACQAAAAIAAAAAAAAAAABAAACABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValidationFunctions">
+    <Position X="1.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\ValidationFunctions.cs</FileName>
+      <HashCode>AAAgAAAAEAQAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>
